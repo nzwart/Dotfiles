@@ -1,4 +1,6 @@
-## Dotfiles installation instructions
+# Dotfiles installation instructions
+
+## Dotfiles repo
 
 Clone this repo to `~/Dotfiles`
 
