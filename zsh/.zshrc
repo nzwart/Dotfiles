@@ -29,3 +29,6 @@ export PATH="/Users/nicolaaszwart/.local/bin:$PATH"
 
 # zsh autosuggestions
 source ~/Dotfiles/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# zsh syntax highlighting
+source ~/Dotfiles/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
