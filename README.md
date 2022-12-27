@@ -6,13 +6,13 @@ Clone this repo to `~/Dotfiles`
 
 &ensp;
 
-## .zshrc configuration steps:
+## .zshrc configuration
 
 Create symlink for `~/Dotfiles/zsh/.zshrc` file in `~/`
 
 &ensp;
 
-## Starship installation steps:
+## Starship installation
 
 Install the latest version:
 
@@ -34,6 +34,6 @@ Enable it in iTerm2 (It will be mislabeled as "FuraMono"
 
 &ensp;
 
-## Install exa:
+## exa installation
 
 https://formulae.brew.sh/formula/exa
