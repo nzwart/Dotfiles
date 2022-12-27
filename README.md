@@ -6,7 +6,7 @@ Clone this repo to `~/Dotfiles`
 
 ## .zshrc configuration steps:
 
-Create symlink for `~/Dotfiles/zsh/.zshrc` file in ~/
+Create symlink for `~/Dotfiles/zsh/.zshrc` file in `~/`
 
 &ensp;
 
