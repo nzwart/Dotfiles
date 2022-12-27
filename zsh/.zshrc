@@ -5,26 +5,23 @@ newfile()
     open $1
 }
 
-# This is so VS code can use the command code
-export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+# Enabling the starship prompt
+eval "$(starship init zsh)"
+
+
+#
+# Aliases
+#
+
+# Setting up an exa view of current dir in long, git, and header form
+alias exagit="exa -l -g -h"
 
 # Making sure terminal opens python 3
 alias python=python3
 
-# Enabling the starship prompt
-eval "$(starship init zsh)"
 
-# Path to actual homebrew install location.
-export PATH=/opt/homebrew/bin:$PATH
-
-# To use Poetry with Python, we need Poetry's bin directory in the 'PATH' environment variable
-export PATH="/Users/nicolaaszwart/.local/bin:$PATH"
-
-
-#
 #
 # zsh plugins
-#
 #
 
 # zsh autosuggestions
@@ -32,3 +29,17 @@ source ~/Dotfiles/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # zsh syntax highlighting
 source ~/Dotfiles/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+
+#
+# PATH modification
+#
+
+# Path to actual homebrew install location.
+export PATH=/opt/homebrew/bin:$PATH
+
+# To use Poetry with Python, we need Poetry's bin directory in the 'PATH' environment variable
+export PATH="/Users/nicolaaszwart/.local/bin:$PATH"
+
+# This is so VS code can use the command code
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
