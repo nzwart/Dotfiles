@@ -2,9 +2,13 @@
 
 Clone this repo to `~/Dotfiles`
 
+&ensp;
+
 ## .zshrc configuration steps:
 
 Create symlink for `~/Dotfiles/zsh/.zshrc` file in ~/
+
+&ensp;
 
 ## Starship installation steps:
 
