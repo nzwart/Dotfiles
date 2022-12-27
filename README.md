@@ -1,12 +1,10 @@
 ## Dotfiles installation instructions
 
-Create `~/Dotfiles` directory.
-
+Clone this repo to `~/Dotfiles`
 
 ## .zshrc configuration steps:
 
 Create symlink for `~/Dotfiles/zsh/.zshrc` file in ~/
-
 
 ## Starship installation steps:
 
