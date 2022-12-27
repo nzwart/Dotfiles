@@ -25,3 +25,7 @@ Download Fira font from:
 https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/FiraMono.zip
 
 Enable it in iTerm2 (It will be mislabeled as "FuraMono"
+
+## Install exa:
+
+https://formulae.brew.sh/formula/exa
