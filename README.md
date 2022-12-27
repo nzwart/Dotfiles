@@ -1,12 +1,18 @@
-## Dotfiles installation instructions
+# Dotfiles installation instructions
+
+## Dotfiles repo
 
 Clone this repo to `~/Dotfiles`
 
-## .zshrc configuration steps:
+&ensp;
 
-Create symlink for `~/Dotfiles/zsh/.zshrc` file in ~/
+## .zshrc configuration
 
-## Starship installation steps:
+Create symlink for `~/Dotfiles/zsh/.zshrc` file in `~/`
+
+&ensp;
+
+## Starship installation
 
 Install the latest version:
 
@@ -26,6 +32,8 @@ https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/FiraMono.zip
 
 Enable it in iTerm2 (It will be mislabeled as "FuraMono"
 
-## Install exa:
+&ensp;
+
+## exa installation
 
 https://formulae.brew.sh/formula/exa
