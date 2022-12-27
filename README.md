@@ -1,5 +1,8 @@
 ## Dotfiles installation instructions
 
+Create `~/Dotfiles` directory.
+
+
 ## .zshrc configuration steps:
 
 Create symlink for `~/Dotfiles/zsh/.zshrc` file in ~/
