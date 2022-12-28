@@ -2,10 +2,10 @@
 # PATH modification
 #
 
-# Path to homebred-installed symlinks
+# Path to homebrew-installed symlinks
 export PATH="/opt/homebrew/bin:$PATH"
 
-# Path to homebred-installed symlinks for python specifically
+# Path to homebrew-installed symlinks for python specifically
 export PATH="/opt/homebrew/cellar/python@3.11/3.11.1/libexec/bin:$PATH"
 
 # To use Poetry with Python, we need Poetry's bin directory in the 'PATH' environment variable
