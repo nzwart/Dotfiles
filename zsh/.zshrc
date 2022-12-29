@@ -14,7 +14,6 @@ export PATH="/Users/nicolaaszwart/.local/bin:$PATH"
 # This is so VS code can use the command code
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
-
 #
 # Terminal settings
 #
@@ -29,7 +28,6 @@ newfile()
 # Enable the starship prompt
 eval "$(starship init zsh)"
 
-
 #
 # Aliases
 #
@@ -39,7 +37,6 @@ alias exagit="exa -l -g -h"
 
 # Make sure terminal opens python 3
 alias python=python3
-
 
 #
 # zsh plugins
