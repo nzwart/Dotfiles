@@ -192,7 +192,9 @@
 			<key>Blinking Cursor</key>
 			<false/>
 			<key>Blur</key>
-			<false/>
+			<true/>
+			<key>Blur Radius</key>
+			<real>21.860272606382978</real>
 			<key>Bold Color</key>
 			<dict>
 				<key>Alpha Component</key>
@@ -211,7 +213,7 @@
 			<key>Close Sessions On End</key>
 			<true/>
 			<key>Columns</key>
-			<integer>80</integer>
+			<integer>125</integer>
 			<key>Command</key>
 			<string></string>
 			<key>Cursor Color</key>
@@ -589,6 +591,8 @@
 			<true/>
 			<key>Normal Font</key>
 			<string>FuraMonoNerdFontCompleteM-Regular 26</string>
+			<key>Only The Default BG Color Uses Transparency</key>
+			<false/>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
 			<key>Prompt Before Closing 2</key>
