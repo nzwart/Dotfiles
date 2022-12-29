@@ -19,14 +19,14 @@ export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/b
 # Terminal settings
 #
 
-# Altering the file creation command so as to use `code` in vs code
+# Alter the file creation command so as to use `code` in vs code
 newfile()
 {
     touch $1
     open $1
 }
 
-# Enabling the starship prompt
+# Enable the starship prompt
 eval "$(starship init zsh)"
 
 
@@ -34,10 +34,10 @@ eval "$(starship init zsh)"
 # Aliases
 #
 
-# Setting up an exa view of current dir in long, git, and header form
+# Set up an exa view of current dir in long, git, and header form
 alias exagit="exa -l -g -h"
 
-# Making sure terminal opens python 3
+# Make sure terminal opens python 3
 alias python=python3
 
 
