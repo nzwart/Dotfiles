@@ -29,13 +29,6 @@ newfile()
 eval "$(starship init zsh)"
 
 #
-# Poetry setup
-#
-
-fpath+=~/.zfunc
-autoload -Uz compinit && compinit
-
-#
 # Aliases
 #
 

@@ -39,11 +39,3 @@ Enable it in iTerm2 (It will be mislabeled as "FuraMono")
 https://formulae.brew.sh/formula/exa
 
 &ensp;
-
-## Poetry configuration
-
-Install Poetry: https://python-poetry.org/docs/#installation
-
-Create a hidden directory inside our `$HOME` directory: `mkdir ~/.zfunc`
-
-Enter into zsh: `poetry completions zsh > ~/.zfunc/_poetry`
