@@ -29,6 +29,13 @@ newfile()
 eval "$(starship init zsh)"
 
 #
+# Poetry setup
+#
+
+fpath+=~/.zfunc
+autoload -Uz compinit && compinit
+
+#
 # Aliases
 #
 
@@ -37,6 +44,18 @@ alias exagit="exa -l -g -h"
 
 # Make sure terminal opens python 3
 alias python=python3
+
+# Alias attempt to make it easier to commmit changes to files I'm working on in vs code
+#gitcommit()
+# {
+#    if [[ "$TERM_PROGRAM" == "vscode" ]]; then
+#        fileBasename=$(basename "${VSCODE_CWD}/${VSCODE_FILE_NAME}")
+#        git add "${fileBasename}"
+#        git commit -m "$1"
+#    else
+#        printf "This function only works inside VS Code.\n"
+#    fi
+#}
 
 #
 # zsh plugins
