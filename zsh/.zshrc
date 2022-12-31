@@ -33,10 +33,38 @@ eval "$(starship init zsh)"
 #
 
 # Set up an exa view of current dir in long, git, and header form
-alias exagit="exa -l -g -h"
+alias exagit="exa -lgha"
 
-# Make sure terminal opens python 3
-alias python=python3
+# Make sure terminal opens python and pip 3
+alias python="python3"
+alias pip="pip3"
+
+# Create intermediate directories as required.
+alias mkdir="mkdir -p"
+
+# Open finder
+alias f="open -a Finder ./"
+
+# Open .zshrc for editing in vscode
+alias zedit="code ~/.zshrc"
+
+# CD to Dotfiles folder.
+alias godot="cd ~/Dotfiles"
+
+# Git aliases
+alias s="git status"
+alias gs="git status"
+alias gd="git diff"
+alias gds="git diff --staged"
+alias b="git branch"
+alias gb="git branch"
+alias gt="git tree"
+alias ga="git add"
+alias gc="git checkout"
+alias gco="git checkout"
+alias gcm="git commit -m"
+alias gp="git pull"
+alias gl="git log --oneline --graph --decorate --all"
 
 # Alias attempt to make it easier to commmit changes to files I'm working on in vs code
 #gitcommit()
