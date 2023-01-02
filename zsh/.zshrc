@@ -51,6 +51,13 @@ alias zedit="code ~/.zshrc"
 # CD to Dotfiles folder.
 alias godot="cd ~/Dotfiles"
 
+# Python Poetry helper
+poetrygo()
+{
+    VENV_PATH=$(poetry env info --path)
+    source $VENV_PATH/bin/activate
+}
+
 # Git aliases
 alias s="git status"
 alias gs="git status"
