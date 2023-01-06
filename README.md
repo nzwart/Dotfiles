@@ -24,7 +24,7 @@ Change default configuration file location:
 
 `export STARSHIP_CONFIG=~/Dotfiles/Starship/starship.toml`
 
-[Download]([url](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/FiraMono.zip)) Fira font.
+[Download]([url](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/FiraMono.zip)) Fira font: https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/FiraMono.zip
 
 Enable it in iTerm2 (It will be mislabeled as "FuraMono")
 
