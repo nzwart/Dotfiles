@@ -2,7 +2,8 @@
 
 ## Dotfiles repo
 
-Clone this repo to `~/Dotfiles`
+Clone this repo to `~/Dotfiles` [via]([url](https://git-scm.com/book/en/v2/Git-Tools-Submodules))
+`git clone --recurse-submodules https://github.com/nzwart/Dotfiles.git`
 
 &ensp;
 
@@ -10,7 +11,6 @@ Clone this repo to `~/Dotfiles`
 Remove .zshrc file from `~/` if it already exists.
 
 Create symlink for `~/Dotfiles/zsh/.zshrc` file in `~/`:
-
 
 &ensp;
 
@@ -24,9 +24,7 @@ Change default configuration file location:
 
 `export STARSHIP_CONFIG=~/Dotfiles/Starship/starship.toml`
 
-Download Fira font from:
-
-https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/FiraMono.zip
+[Download]([url](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/FiraMono.zip)) Fira font.
 
 Enable it in iTerm2 (It will be mislabeled as "FuraMono")
 
