@@ -31,7 +31,10 @@ Enable it in iTerm2 (It will be mislabeled as "FuraMono")
 &ensp;
 
 ## exa installation
-
 https://formulae.brew.sh/formula/exa
 
 &ensp;
+
+## Github auth
+Download gcm
+https://github.com/GitCredentialManager/git-credential-manager/blob/main/README.md
