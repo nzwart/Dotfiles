@@ -810,7 +810,7 @@
 	<key>PromptOnQuit</key>
 	<false/>
 	<key>Size Changes Affect Profile</key>
-	<true/>
+	<false/>
 	<key>SoundForEsc</key>
 	<false/>
 	<key>TabStyleWithAutomaticOption</key>
