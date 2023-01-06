@@ -20,10 +20,6 @@ Install the latest version:
 
 `curl -sS https://starship.rs/install.sh | sh`
 
-Add the following to the end of ~/.zshrc:
-
-`eval "$(starship init zsh)"`
-
 Change default configuration file location:
 
 `export STARSHIP_CONFIG=~/Dotfiles/Starship/starship.toml`
