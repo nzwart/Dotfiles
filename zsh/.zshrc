@@ -3,16 +3,23 @@
 #
 
 # Path to homebrew-installed symlinks
+# Apple silicon
 export PATH="/opt/homebrew/bin:$PATH"
+# Intel
+export PATH="/usr/local/bin:$PATH"
+export PATH="/usr/local/opt:$PATH"
 
 # Path to homebrew-installed symlinks for python specifically
+# Apple silicon
 export PATH="/opt/homebrew/cellar/python@3.11/3.11.1/libexec/bin:$PATH"
+# Intel
+export PATH="/usr/local/Cellar/python@3.11/3.11.1/bin:$PATH"
 
 # To use Poetry with Python, we need Poetry's bin directory in the 'PATH' environment variable
 export PATH="/Users/nicolaaszwart/.local/bin:$PATH"
 
-# This is so VS code can use the command code
-export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+# This is so VS code can use the command "code"
+export PATH="/Applications/Visual Studio Code.app/Contents/Resources/app/bin:$PATH"
 
 #
 # Terminal settings
