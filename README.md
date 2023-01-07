@@ -38,3 +38,8 @@ https://formulae.brew.sh/formula/exa
 ## Github auth
 Download gcm
 https://github.com/GitCredentialManager/git-credential-manager/blob/main/README.md
+
+&ensp;
+
+## Languages
+Brew install python: https://formulae.brew.sh/formula/python@3.11
