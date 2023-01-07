@@ -43,3 +43,4 @@ https://github.com/GitCredentialManager/git-credential-manager/blob/main/README.
 
 ## Languages
 Brew install python: https://formulae.brew.sh/formula/python@3.11
+Install poetry: https://python-poetry.org/docs/#installation
