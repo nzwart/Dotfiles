@@ -40,7 +40,7 @@ eval "$(starship init zsh)"
 #
 
 # Set up an exa view of current dir in long, git, and header form
-alias exagit="exa -lgha"
+alias exagit="exa -lha --git"
 
 # Make sure terminal opens python and pip 3
 alias python="python3"
