@@ -537,12 +537,16 @@
 					<key>Text</key>
 					<string>[1;6D</string>
 				</dict>
-				<key>0xf702-0x280000</key>
+				<key>0xf702-0x280000-0x0</key>
 				<dict>
 					<key>Action</key>
 					<integer>11</integer>
+					<key>Label</key>
+					<string></string>
 					<key>Text</key>
-					<string>0x1b 0x1b 0x5b 0x44</string>
+					<string>0x1b 0x62</string>
+					<key>Version</key>
+					<integer>0</integer>
 				</dict>
 				<key>0xf703-0x220000</key>
 				<dict>
@@ -565,12 +569,16 @@
 					<key>Text</key>
 					<string>[1;6C</string>
 				</dict>
-				<key>0xf703-0x280000</key>
+				<key>0xf703-0x280000-0x0</key>
 				<dict>
 					<key>Action</key>
 					<integer>11</integer>
+					<key>Label</key>
+					<string></string>
 					<key>Text</key>
-					<string>0x1b 0x1b 0x5b 0x43</string>
+					<string>0x1b 0x66</string>
+					<key>Version</key>
+					<integer>0</integer>
 				</dict>
 				<key>0xf704-0x20000</key>
 				<dict>
