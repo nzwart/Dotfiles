@@ -52,6 +52,9 @@ alias mkdir="mkdir -p"
 # Open finder
 alias f="open -a Finder ./"
 
+# Default ls to color
+alias ls="ls -G"
+
 # Open .zshrc for editing in vscode
 alias zedit="code ~/.zshrc"
 
