@@ -6,14 +6,17 @@
 # Apple silicon
 export PATH="/opt/homebrew/bin:$PATH"
 # Intel
-export PATH="/usr/local/bin:$PATH"
+# export PATH="/usr/local/bin:$PATH" # commenting this out due to issues with homebrew python symlinks not taking precedence
 export PATH="/usr/local/opt:$PATH"
 
 # Path to homebrew-installed symlinks for python specifically
 # Apple silicon
-export PATH="/opt/homebrew/cellar/python@3.11/3.11.1/libexec/bin:$PATH"
+export PATH="/opt/homebrew/cellar/python@3.11/3.11.2/libexec/bin:$PATH"
 # Intel
-export PATH="/usr/local/Cellar/python@3.11/3.11.1/bin:$PATH"
+export PATH="/usr/local/Cellar/python@3.11/3.11.2/bin:$PATH"
+
+# More homebrew setup
+export PATH="/opt/homebrew/sbin:$PATH"
 
 # To use Poetry with Python, we need Poetry's bin directory in the 'PATH' environment variable
 export PATH="/Users/nicolaaszwart/.local/bin:$PATH"
