@@ -26,7 +26,7 @@ export PATH="/Applications/Visual Studio Code.app/Contents/Resources/app/bin:$PA
 
 # For use with mkcert
 export LOCALDEV_CERT="$HOME/.localdev-certs/localhost+1.pem"
-export LOCALDEV_KEY="$HOME/.localdev-certs/localhost-key+1.pem"
+export LOCALDEV_KEY="$HOME/.localdev-certs/localhost+1-key.pem"
 
 #
 # Terminal settings
