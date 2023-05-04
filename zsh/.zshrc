@@ -65,8 +65,11 @@ alias ls="ls -G"
 # Open .zshrc for editing in vscode
 alias zedit="code ~/.zshrc"
 
-# CD to Dotfiles folder.
+# cd to Dotfiles folder.
 alias godot="cd ~/Dotfiles"
+
+# ls after cd (shell function)
+cd() { builtin cd "$@" && echo "==> $(pwd):" && ls; }
 
 # Python Poetry helper
 poetrygo()
