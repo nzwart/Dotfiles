@@ -29,7 +29,11 @@ Change default configuration file location:
 &ensp;
 
 ## exa installation
-https://formulae.brew.sh/formula/exa
+On macOS:
+`brew install exa`
+
+On Ubuntu:
+`apt install exa`
 
 &ensp;
 
