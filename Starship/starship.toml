@@ -125,3 +125,10 @@ symbol = " "
 
 [spack]
 symbol = "🅢 "
+
+# For Ubuntu
+[username]
+disabled = true
+
+[hostname]
+disabled = true
