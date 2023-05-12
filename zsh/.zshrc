@@ -42,6 +42,7 @@ newfile()
 
 # Enable the starship prompt
 eval "$(starship init zsh)"
+export STARSHIP_CONFIG=~/Dotfiles/Starship/starship.toml
 
 
 #
