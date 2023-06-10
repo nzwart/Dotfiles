@@ -13,6 +13,28 @@
 			<key>Text</key>
 			<string></string>
 		</dict>
+		<key>0x7b-0x120000-0x21</key>
+		<dict>
+			<key>Action</key>
+			<integer>2</integer>
+			<key>Label</key>
+			<string></string>
+			<key>Text</key>
+			<string></string>
+			<key>Version</key>
+			<integer>0</integer>
+		</dict>
+		<key>0x7d-0x120000-0x1e</key>
+		<dict>
+			<key>Action</key>
+			<integer>0</integer>
+			<key>Label</key>
+			<string></string>
+			<key>Text</key>
+			<string></string>
+			<key>Version</key>
+			<integer>0</integer>
+		</dict>
 		<key>0x9-0x40000</key>
 		<dict>
 			<key>Action</key>
@@ -20,24 +42,10 @@
 			<key>Text</key>
 			<string></string>
 		</dict>
-		<key>0xf702-0x300000</key>
-		<dict>
-			<key>Action</key>
-			<integer>2</integer>
-			<key>Text</key>
-			<string></string>
-		</dict>
 		<key>0xf702-0x320000</key>
 		<dict>
 			<key>Action</key>
 			<integer>33</integer>
-			<key>Text</key>
-			<string></string>
-		</dict>
-		<key>0xf703-0x300000</key>
-		<dict>
-			<key>Action</key>
-			<integer>0</integer>
 			<key>Text</key>
 			<string></string>
 		</dict>
