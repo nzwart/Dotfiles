@@ -10,7 +10,9 @@ Clone this repo to `~/Dotfiles` [via]([url](https://git-scm.com/book/en/v2/Git-T
 ## .zshrc configuration
 Remove .zshrc file from `~/` if it already exists.
 
-Create symlink for `~/Dotfiles/zsh/.zshrc` file in `~/`:
+Create symlink for `~/Dotfiles/zsh/.zshrc` file in `~/`.
+
+Install tree: `brew install tree`
 
 &ensp;
 
