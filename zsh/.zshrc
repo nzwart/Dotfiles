@@ -28,6 +28,11 @@ export PATH="/Applications/Visual Studio Code.app/Contents/Resources/app/bin:$PA
 export LOCALDEV_CERT="$HOME/.localdev-certs/localhost+1.pem"
 export LOCALDEV_KEY="$HOME/.localdev-certs/localhost+1-key.pem"
 
+# Latex path
+export PATH="/Library/TinyTeX/bin/universal-darwin:$PATH"
+
+
+
 #
 # Terminal settings
 #
@@ -40,7 +45,10 @@ newfile()
 }
 
 # Enable the starship prompt
+export STARSHIP_CONFIG=~/Dotfiles/Starship/starship.toml
 eval "$(starship init zsh)"
+
+
 
 #
 # Aliases
@@ -65,8 +73,11 @@ alias ls="ls -G"
 # Open .zshrc for editing in vscode
 alias zedit="code ~/.zshrc"
 
-# CD to Dotfiles folder.
+# cd to Dotfiles folder.
 alias godot="cd ~/Dotfiles"
+
+# ls after cd (shell function) # Removing this because it's annoying
+# cd() { builtin cd "$@" && echo "==> $(pwd):" && ls; }
 
 # Python Poetry helper
 poetrygo()
@@ -90,17 +101,6 @@ alias gcm="git commit -m"
 alias gp="git pull"
 alias gl="git log --oneline --graph --decorate --all"
 
-# Alias attempt to make it easier to commmit changes to files I'm working on in vs code
-#gitcommit()
-# {
-#    if [[ "$TERM_PROGRAM" == "vscode" ]]; then
-#        fileBasename=$(basename "${VSCODE_CWD}/${VSCODE_FILE_NAME}")
-#        git add "${fileBasename}"
-#        git commit -m "$1"
-#    else
-#        printf "This function only works inside VS Code.\n"
-#    fi
-#}
 
 #
 # zsh plugins
@@ -111,6 +111,7 @@ source ~/Dotfiles/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # zsh syntax highlighting
 source ~/Dotfiles/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
 
 #
 # nvm setup

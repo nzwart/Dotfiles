@@ -20,16 +20,16 @@ Install the latest version:
 
 `curl -sS https://starship.rs/install.sh | sh`
 
-Change default configuration file location:
-
-`export STARSHIP_CONFIG=~/Dotfiles/Starship/starship.toml`
-
 [Download]([url](https://www.jetbrains.com/lp/mono/)) JetBrains Mono font and install.
 
 &ensp;
 
 ## exa installation
-https://formulae.brew.sh/formula/exa
+On macOS:
+`brew install exa`
+
+On Ubuntu:
+`apt install exa`
 
 &ensp;
 
