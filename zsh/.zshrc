@@ -65,6 +65,9 @@ alias f="open -a Finder ./"
 # Default ls to color
 alias ls="ls -G"
 
+# Default tree to color
+alias tree="tree -C"
+
 # Open .zshrc for editing in vscode
 alias zedit="code ~/.zshrc"
 
