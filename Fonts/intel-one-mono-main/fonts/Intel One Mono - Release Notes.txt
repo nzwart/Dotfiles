@@ -1,0 +1,61 @@
+Release Notes / Intel One Mono
+2023-08-18
+
+
+Family name
+	Intel One Mono
+
+Version number
+	1.3 Updated font naming (“Intel One Mono”) - will require relinking
+		Improved linking of Regular and Bold weights
+		Improved alignment between hyphen, colon, and operators
+		Updated art for backtick/grave
+		Edited mark/ccmp features for language support
+		Edits to meta info and licensing text
+
+
+Supported scripts
+	Latin (full glyph complement supporting over 200 languages)
+
+Number of glyphs 
+	684
+
+Weights/Styles
+	Light
+	Light Italic
+	Regular
+	Italic
+	Medium
+	Medium Italic
+	Bold
+	Bold Italic
+
+Usage
+	Text 
+	Use at 7 pt and up in print, 9 px and up on screen.
+
+File formats
+	OTF 	(Desktop)
+	TTF 	(Desktop/App)
+	WOFF 	(Web)
+	WOFF2 	(Web)
+	UFO 	(Source Files)
+
+Hinting
+	TTF, WOFF, and WOFF2 manually hinted to improve screen rendering
+
+Embedding settings
+	No embedding restrictions
+
+Available OpenType features 
+	ss11 	Raised Colon (Figures Only)
+	ss12 	Raised Colon (Global)
+	salt 	Stylistic Alternates
+	locl 	Localizations
+	ccmp	Glyph Composition/Decomposition Rules
+	mark 	Mark Attachment
+	numr 	Numerator
+	dnom	Denominator
+	sups	Superscript
+	subs 	Subscript
+	sinf	Scientific Inferior
