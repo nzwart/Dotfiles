@@ -98,6 +98,13 @@ alias gco="git checkout"
 alias gcm="git commit -m"
 alias gp="git pull"
 alias gl="git log --oneline --graph --decorate --all"
+# "Quick Git"
+qg() {
+    git add .
+    git commit -m "$1"
+    git push
+}
+alias qg=qg
 
 
 #
