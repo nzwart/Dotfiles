@@ -825,6 +825,8 @@
 	<true/>
 	<key>PromptOnQuit</key>
 	<false/>
+	<key>ShowFullScreenTabBar</key>
+	<false/>
 	<key>Size Changes Affect Profile</key>
 	<false/>
 	<key>SoundForEsc</key>
