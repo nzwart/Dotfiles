@@ -78,11 +78,12 @@ alias godot="cd ~/Dotfiles"
 # cd() { builtin cd "$@" && echo "==> $(pwd):" && ls; }
 
 # Python Poetry helper
-poetrygo()
-{
-    VENV_PATH=$(poetry env info --path)
-    source $VENV_PATH/bin/activate
-}
+# Deprecating this due to `poetry shell` working fine for now, 2.7.24
+# poetrygo()
+# {
+#     VENV_PATH=$(poetry env info --path)
+#     source $VENV_PATH/bin/activate
+# }
 
 # Git aliases
 alias s="git status"
