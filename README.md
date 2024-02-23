@@ -17,6 +17,10 @@ Install tree: `brew install tree`
 
 &ensp;
 
+## Fonts
+
+Install all the fonts in the `Dotfiles/Fonts/` directory.
+
 ## Starship installation
 
 Install the latest version via homebrew:
@@ -29,8 +33,8 @@ Install the latest version via homebrew:
 
 ## Github auth
 
-Download gcm
-https://github.com/GitCredentialManager/git-credential-manager/blob/main/README.md
+Install gcm:
+`brew install --cask git-credential-manager`
 
 &ensp;
 
