@@ -33,7 +33,7 @@ Install the latest version via homebrew:
 
 ## Github auth
 
-Install gcm:
+[Install gcm](https://github.com/git-ecosystem/git-credential-manager/blob/release/docs/install.md):
 `brew install --cask git-credential-manager`
 
 &ensp;
