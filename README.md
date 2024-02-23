@@ -21,13 +21,13 @@ Install tree: `brew install tree`
 
 Install all the fonts in the `Dotfiles/Fonts/` directory.
 
+&ensp;
+
 ## Starship installation
 
 Install the latest version via homebrew:
 
 `brew install starship`
-
-[Download]([url](https://www.jetbrains.com/lp/mono/)) JetBrains Mono font and install.
 
 &ensp;
 
