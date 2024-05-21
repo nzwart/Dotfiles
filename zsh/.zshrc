@@ -28,7 +28,6 @@ export PATH="/Applications/Visual Studio Code.app/Contents/Resources/app/bin:$PA
 export LOCALDEV_CERT="$HOME/.localdev-certs/localhost+1.pem"
 export LOCALDEV_KEY="$HOME/.localdev-certs/localhost+1-key.pem"
 
-
 #
 # Terminal settings
 #
@@ -127,3 +126,10 @@ source ~/Dotfiles/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+
+#
+# rye path
+#
+
+source "$HOME/.rye/env"
