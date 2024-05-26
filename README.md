@@ -1,8 +1,13 @@
 # Dotfiles installation instructions
 
+## updates todo:
+
+-- remove brew install python instruction and instead add instructions to install rye
+-- create a shell script or makefile to automate the installation process
+
 ## Dotfiles repo
 
-Clone this repo to `~/Dotfiles` [via]([url](https://git-scm.com/book/en/v2/Git-Tools-Submodules))
+Clone this repo to `~/Dotfiles` [via](<[url](https://git-scm.com/book/en/v2/Git-Tools-Submodules)>)
 `git clone --recurse-submodules https://github.com/nzwart/Dotfiles.git`
 
 &ensp;
