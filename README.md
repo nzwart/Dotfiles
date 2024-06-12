@@ -4,6 +4,7 @@
 
 -- remove brew install python instruction and instead add instructions to install rye
 -- create a shell script or makefile to automate the installation process
+-- add vscode settings
 
 ## Dotfiles repo
 

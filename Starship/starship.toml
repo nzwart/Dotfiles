@@ -1,9 +1,12 @@
-# For Ubuntu
-[username]
-disabled = true
+# Put new-line inside of ($all) variable)
+#format = """($all
+#)$character"""
 
-[hostname]
-disabled = true
+
+#add_newline = true
+
+[username]
+show_always = true
 
 [aws]
 symbol = "  "

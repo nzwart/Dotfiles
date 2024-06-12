@@ -39,9 +39,16 @@ newfile()
     open $1
 }
 
+
+#
+# Prompt settings
+#
+
+
 # Enable the starship prompt
 export STARSHIP_CONFIG=~/Dotfiles/Starship/starship.toml
 eval "$(starship init zsh)"
+
 
 
 #
@@ -133,3 +140,6 @@ export NVM_DIR="$HOME/.nvm"
 #
 
 source "$HOME/.rye/env"
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
