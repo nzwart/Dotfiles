@@ -44,6 +44,10 @@ newfile()
 # Prompt settings
 #
 
+# This was created on 6.26.24 to account for this VSCode terminal bug caused by interaction with Starship: https://github.com/microsoft/vscode-python/issues/22927
+# It disables the venv name being echoed in the VSCode terminal window when a Python venv is active.
+export VIRTUAL_ENV_DISABLE_PROMPT=1
+
 
 # Enable the starship prompt
 export STARSHIP_CONFIG=~/Dotfiles/Starship/starship.toml
