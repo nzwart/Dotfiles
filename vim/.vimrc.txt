@@ -1,0 +1,28 @@
+" Colemak remapping for movement keys
+noremap m h
+noremap n j
+noremap e k
+noremap i l
+
+" Movement keys remap for visual mode
+noremap vn vj
+noremap ve vk
+noremap vi vl
+
+" Movement keys remap for insert mode
+inoremap <C-m> <C-h>
+inoremap <C-n> <C-j>
+inoremap <C-e> <C-k>
+inoremap <C-i> <C-l>
+
+" Movement keys remap for command-line mode
+cnoremap <C-m> <C-h>
+cnoremap <C-n> <C-j>
+cnoremap <C-e> <C-k>
+cnoremap <C-i> <C-l>
+
+" Movement keys remap for window navigation
+nnoremap <C-w>m <C-w>h
+nnoremap <C-w>n <C-w>j
+nnoremap <C-w>e <C-w>k
+nnoremap <C-w>i <C-w>l
