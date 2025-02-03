@@ -1,9 +1,5 @@
-# For Ubuntu
 [username]
-disabled = true
-
-[hostname]
-disabled = true
+show_always = true
 
 [aws]
 symbol = "  "

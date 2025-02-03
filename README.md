@@ -1,13 +1,20 @@
 # Dotfiles installation instructions
 
+## updates todo:
+
+-- remove brew install python instruction and instead add instructions to install rye
+-- create a shell script or makefile to automate the installation process
+-- add vscode settings
+
 ## Dotfiles repo
 
-Clone this repo to `~/Dotfiles` [via]([url](https://git-scm.com/book/en/v2/Git-Tools-Submodules))
+Clone this repo to `~/Dotfiles` [via](<[url](https://git-scm.com/book/en/v2/Git-Tools-Submodules)>)
 `git clone --recurse-submodules https://github.com/nzwart/Dotfiles.git`
 
 &ensp;
 
 ## .zshrc configuration
+
 Remove .zshrc file from `~/` if it already exists.
 
 Create symlink for `~/Dotfiles/zsh/.zshrc` file in `~/`.
@@ -16,32 +23,31 @@ Install tree: `brew install tree`
 
 &ensp;
 
-## Starship installation
+## Fonts
 
-Install the latest version:
-
-`curl -sS https://starship.rs/install.sh | sh`
-
-[Download]([url](https://www.jetbrains.com/lp/mono/)) JetBrains Mono font and install.
+Install all the fonts in the `Dotfiles/Fonts/` directory.
 
 &ensp;
 
-## exa installation
-On macOS:
-`brew install exa`
+## Starship installation
 
-On Ubuntu:
-`apt install exa`
+Install the latest version via homebrew:
+
+`brew install starship`
 
 &ensp;
 
 ## Github auth
-Download gcm
-https://github.com/GitCredentialManager/git-credential-manager/blob/main/README.md
+
+[Install gcm](https://github.com/git-ecosystem/git-credential-manager/blob/release/docs/install.md):
+`brew install --cask git-credential-manager`
 
 &ensp;
 
 ## Languages
-Brew install python: https://formulae.brew.sh/formula/python@3.11
+
+Brew install Python: https://formulae.brew.sh/formula/python@3.11
 
 Install poetry: https://python-poetry.org/docs/#installation
+
+Install Rust: https://www.rust-lang.org/tools/install

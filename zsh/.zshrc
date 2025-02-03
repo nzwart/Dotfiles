@@ -28,7 +28,6 @@ export PATH="/Applications/Visual Studio Code.app/Contents/Resources/app/bin:$PA
 export LOCALDEV_CERT="$HOME/.localdev-certs/localhost+1.pem"
 export LOCALDEV_KEY="$HOME/.localdev-certs/localhost+1-key.pem"
 
-
 #
 # Terminal settings
 #
@@ -40,9 +39,20 @@ newfile()
     open $1
 }
 
+
+#
+# Prompt settings
+#
+
+# This was created on 6.26.24 to account for this VSCode terminal bug caused by interaction with Starship: https://github.com/microsoft/vscode-python/issues/22927
+# It disables the venv name being echoed in the VSCode terminal window when a Python venv is active.
+export VIRTUAL_ENV_DISABLE_PROMPT=1
+
+
 # Enable the starship prompt
 export STARSHIP_CONFIG=~/Dotfiles/Starship/starship.toml
 eval "$(starship init zsh)"
+
 
 
 #
@@ -78,11 +88,12 @@ alias godot="cd ~/Dotfiles"
 # cd() { builtin cd "$@" && echo "==> $(pwd):" && ls; }
 
 # Python Poetry helper
-poetrygo()
-{
-    VENV_PATH=$(poetry env info --path)
-    source $VENV_PATH/bin/activate
-}
+# Deprecating this due to `poetry shell` working fine for now, 2.7.24
+# poetrygo()
+# {
+#     VENV_PATH=$(poetry env info --path)
+#     source $VENV_PATH/bin/activate
+# }
 
 # Git aliases
 alias s="git status"
@@ -96,7 +107,8 @@ alias ga="git add"
 alias gc="git checkout"
 alias gco="git checkout"
 alias gcm="git commit -m"
-alias gp="git pull"
+alias gpull="git pull"
+alias gpush="git push"
 alias gl="git log --oneline --graph --decorate --all"
 # "Quick Git"
 qg() {
@@ -125,3 +137,13 @@ source ~/Dotfiles/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+
+#
+# rye path
+#
+
+source "$HOME/.rye/env"
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
