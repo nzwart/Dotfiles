@@ -4,6 +4,8 @@
 
 -- remove brew install python instruction and instead add instructions to install rye
 -- create a shell script or makefile to automate the installation process
+---- it will need this, for symlinks to kitty and vim configs: ln -s ~/dotfiles/kitty ~/.config/kitty
+ln -s ~/dotfiles/nvim ~/.config/nvim
 -- add vscode settings
 
 ## Dotfiles repo
