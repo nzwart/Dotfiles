@@ -8,6 +8,12 @@
 ln -s ~/dotfiles/nvim ~/.config/nvim
 -- add vscode settings
 
+## nvim installation steps
+-- todo:
+-- brew install fzf
+-- brew install ripgrep
+-- brew install fd 
+
 ## Dotfiles repo
 
 Clone this repo to `~/Dotfiles` [via](<[url](https://git-scm.com/book/en/v2/Git-Tools-Submodules)>)
