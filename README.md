@@ -13,6 +13,7 @@ ln -s ~/dotfiles/nvim ~/.config/nvim
 -- brew install fzf
 -- brew install ripgrep
 -- brew install fd 
+-- brew install tmux
 
 ## Dotfiles repo
 
