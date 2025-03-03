@@ -15,6 +15,8 @@ ln -s ~/dotfiles/nvim ~/.config/nvim
 -- brew install fd 
 -- brew install tmux
 
+-- automate symlinks: ln -s /Dotfiles/originalfile ~/symlink
+
 ## Dotfiles repo
 
 Clone this repo to `~/Dotfiles` [via](<[url](https://git-scm.com/book/en/v2/Git-Tools-Submodules)>)
